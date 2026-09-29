@@ -1,0 +1,139 @@
+[
+    {
+        "id": "2144",
+        "name": "Shut Up and Dance - WALK THE MOON",
+        "description": "Difficulties: Expert+ (Added 11/15), Expert, Hard, Normal\r\nYouTube Preview: https://youtu.be/x9hJbTlPQUY",
+        "uploader": {
+            "id": 30311,
+            "name": "bennydabeast",
+            "uniqueSet": true,
+            "hash": "5cff0b7298cc5a672c84e98d",
+            "avatar": "https://cdn.beatsaver.com/avatar/30311.jpg",
+            "type": "SIMPLE"
+        },
+        "metadata": {
+            "bpm": 128.0,
+            "duration": 200,
+            "songName": "Shut Up and Dance",
+            "songSubName": "WALK THE MOON",
+            "songAuthorName": "BennyDaBeast",
+            "levelAuthorName": "bennydabeast"
+        },
+        "stats": {
+            "plays": 0,
+            "downloads": 47856,
+            "upvotes": 15705,
+            "downvotes": 243,
+            "score": 0.9584
+        },
+        "uploaded": "2018-11-21T01:27:00Z",
+        "automapper": false,
+        "ranked": false,
+        "qualified": false,
+        "versions": [
+            {
+                "hash": "89cf8bb07afb3c59ae7b5ac00337d62261c36fb4",
+                "key": "2144",
+                "state": "Published",
+                "createdAt": "2018-11-21T01:27:00Z",
+                "sageScore": 3,
+                "diffs": [
+                    {
+                        "njs": 10.0,
+                        "offset": 0.0,
+                        "notes": 301,
+                        "bombs": 4,
+                        "obstacles": 24,
+                        "nps": 1.578,
+                        "length": 407.0,
+                        "characteristic": "Standard",
+                        "difficulty": "Normal",
+                        "events": 380,
+                        "chroma": false,
+                        "me": false,
+                        "ne": false,
+                        "cinema": false,
+                        "seconds": 190.781,
+                        "paritySummary": {
+                            "errors": 64,
+                            "warns": 19,
+                            "resets": 0
+                        }
+                    },
+                    {
+                        "njs": 10.0,
+                        "offset": 0.0,
+                        "notes": 486,
+                        "bombs": 4,
+                        "obstacles": 24,
+                        "nps": 2.547,
+                        "length": 407.0,
+                        "characteristic": "Standard",
+                        "difficulty": "Hard",
+                        "events": 380,
+                        "chroma": false,
+                        "me": false,
+                        "ne": false,
+                        "cinema": false,
+                        "seconds": 190.781,
+                        "paritySummary": {
+                            "errors": 76,
+                            "warns": 34,
+                            "resets": 0
+                        }
+                    },
+                    {
+                        "njs": 10.0,
+                        "offset": 0.0,
+                        "notes": 620,
+                        "bombs": 4,
+                        "obstacles": 24,
+                        "nps": 3.246,
+                        "length": 407.5,
+                        "characteristic": "Standard",
+                        "difficulty": "Expert",
+                        "events": 380,
+                        "chroma": false,
+                        "me": false,
+                        "ne": false,
+                        "cinema": false,
+                        "seconds": 191.016,
+                        "paritySummary": {
+                            "errors": 88,
+                            "warns": 68,
+                            "resets": 0
+                        }
+                    },
+                    {
+                        "njs": 12.0,
+                        "offset": 0.0,
+                        "notes": 894,
+                        "bombs": 0,
+                        "obstacles": 0,
+                        "nps": 4.68,
+                        "length": 407.5,
+                        "characteristic": "Standard",
+                        "difficulty": "ExpertPlus",
+                        "events": 380,
+                        "chroma": false,
+                        "me": false,
+                        "ne": false,
+                        "cinema": false,
+                        "seconds": 191.016,
+                        "paritySummary": {
+                            "errors": 99,
+                            "warns": 120,
+                            "resets": 0
+                        }
+                    }
+                ],
+                "downloadURL": "https://cdn.beatsaver.com/89cf8bb07afb3c59ae7b5ac00337d62261c36fb4.zip",
+                "coverURL": "https://cdn.beatsaver.com/89cf8bb07afb3c59ae7b5ac00337d62261c36fb4.jpg",
+                "previewURL": "https://cdn.beatsaver.com/89cf8bb07afb3c59ae7b5ac00337d62261c36fb4.mp3"
+            }
+        ],
+        "createdAt": "2018-11-21T01:27:00Z",
+        "updatedAt": "2018-11-21T01:27:00Z",
+        "lastPublishedAt": "2018-11-21T01:27:00Z"
+    }
+]

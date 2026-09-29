@@ -1,0 +1,66 @@
+{
+  "name": "moonrider",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack",
+    "lint": "semistandard -v | snazzy",
+    "lint:fix": "semistandard --fix",
+    "deploy": "cross-env NODE_ENV=production npm run build && shx mkdir -p bms && cp -r index.html assets build bms",
+    "start": "webpack serve --host 0.0.0.0 --port 3000"
+  },
+  "dependencies": {
+    "aframe-aabb-collider-component": "^3.2.2",
+    "aframe-atlas-uvs-component": "^3.0.0",
+    "aframe-audioanalyser-component": "^6.0.0",
+    "aframe-event-set-component": "^4.2.1",
+    "aframe-geometry-merger-component": "^2.0.0-beta1",
+    "aframe-layout-component": "^5.3.0",
+    "aframe-log-component": "^1.0.7",
+    "aframe-orbit-controls": "^1.2.0",
+    "aframe-proxy-event-component": "^2.1.0",
+    "aframe-render-order-component": "^1.1.0",
+    "aframe-slice9-component": "^1.0.0",
+    "aframe-state-component": "6.7.0",
+    "aframe-thumb-controls-component": "^2.0.2",
+    "fflate": "^0.8.2",
+    "lodash.debounce": "^4.0.8"
+  },
+  "overrides": {
+    "aframe-render-order-component": {
+      "babel-loader": "^10.0.0",
+      "webpack": "^5.104.1"
+    }
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.2",
+    "aframe-super-hot-html-loader": "^1.2.0",
+    "aframe-super-hot-loader": "^1.5.0",
+    "babel-loader": "^10.0.0",
+    "cross-env": "4.0.0",
+    "css-loader": "^7.1.2",
+    "html-require-loader": "^1.0.1",
+    "ip": "1.1.5",
+    "semistandard": "10.0.0",
+    "shx": "^0.2.2",
+    "snazzy": "7.0.0",
+    "style-loader": "^4.0.0",
+    "super-nunjucks-loader": "^2.0.0",
+    "webpack": "^5.104.1",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.2",
+    "webpack-glsl-loader": "^1.0.1"
+  },
+  "semistandard": {
+    "globals": [
+      "AFRAME",
+      "THREE"
+    ],
+    "ignore": [
+      "build/**"
+    ]
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

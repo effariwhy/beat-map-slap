@@ -500,26 +500,8 @@ AFRAME.registerComponent('beat', {
     }
   },
 
-  /**
-   * A possible To Do would be to score based on punch velocity and direction.
-   * More points scored if punching straight down the curve.
-   */
   calculateScorePunch: function (punchEl) {
-    const base = 60; // Get 60% of the score just by hitting the beat.
-
-    const SUPER_SCORE_SPEED = 1.5;
-    const speed = punchEl.components.punch.speed;
-    const speedScore = (speed / SUPER_SCORE_SPEED) * 40;
-
-    let score;
-    if (speed <= SUPER_SCORE_SPEED) {
-      score = base + Math.min(speedScore, 40);
-    } else {
-      score = base + remap(clamp(speed, 1.5, 6), 1.5, 6, 40, 70);
-    }
-
-    const percent = base + Math.min(speedScore, 40);
-    this.score(score, percent);
+    this.score(100, 100);
   },
 
   /**
